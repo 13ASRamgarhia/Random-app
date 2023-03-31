@@ -6,6 +6,8 @@ import Loader from './Loader'
 import "animate.css"
 
 const GetUsers = () => {
+  document.title = "Random | Our users"
+
   const context = useContext(randomContext)
   const { darkMode, page, setPage, endpoint, isLoading, setLoading } = context
 
