@@ -36,7 +36,7 @@ const Navbar = () => {
             <div className={`navItems hidden laptop:flex h-full space-x-10 desktop:space-x-14 my-auto font-Montserrat ${darkMode ? "text-headingColor" : "text-white"}`}>
                 <div className="my-auto hover:scale-110 transition-all duration-100 font-medium text-xl desktop:text-3xl"><Link className='cursor-pointer hover:text-current focus:text-current' to="/"><div>Home</div></Link></div>
                 <div className="my-auto hover:scale-110 transition-all duration-100 font-medium text-xl desktop:text-3xl"><Link className='cursor-pointer hover:text-current focus:text-current' to="/Users"><div>Get Users</div></Link></div>
-                <div className="my-auto hover:scale-110 transition-all duration-100 font-medium text-xl desktop:text-3xl"><a href="https://www.google.com" target='blank' rel="noopener noreferrer" className='cursor-pointer hover:text-current focus:text-current'><div>Project Link</div></a></div>
+                <div className="my-auto hover:scale-110 transition-all duration-100 font-medium text-xl desktop:text-3xl"><a href="https://github.com/13ASRamgarhia/Random-app" target='blank' rel="noopener noreferrer" className='cursor-pointer hover:text-current focus:text-current'><div>Project Link</div></a></div>
                 <div className="my-auto hover:scale-110 transition-all duration-100">
                     <button onClick={handleDarkMode}>
                         {
@@ -75,7 +75,7 @@ const Navbar = () => {
                 <div className='space-y-3'>
                     <div onClick={handleHamburgerClick} className={`${darkMode ? "text-headingColor" : "text-white"}`}><Link to="/" className='cursor-pointer hover:text-current focus:text-current'><div>Home</div></Link></div>
                     <div onClick={handleHamburgerClick} className={`${darkMode ? "text-headingColor" : "text-white"}`}><Link to="/Users" className='cursor-pointer hover:text-current focus:text-current'><div>Get Users</div></Link></div>
-                    <div onClick={handleHamburgerClick} className={`${darkMode ? "text-headingColor" : "text-white"}`}><a href="https://www.google.com" target='blank' rel="noopener noreferrer" className='cursor-pointer hover:text-current focus:text-current'><div>Project Link</div></a></div>
+                    <div onClick={handleHamburgerClick} className={`${darkMode ? "text-headingColor" : "text-white"}`}><a href="https://github.com/13ASRamgarhia/Random-app" target='blank' rel="noopener noreferrer" className='cursor-pointer hover:text-current focus:text-current'><div>Project Link</div></a></div>
                     <button className='pt-1' onClick={handleDarkMode}>
                         {
                             darkMode ? 
