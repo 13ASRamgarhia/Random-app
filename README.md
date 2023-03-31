@@ -5,7 +5,7 @@ This app was designed to get users from an API.
 
 ![Image](https://github.com/13ASRamgarhia/Random-app/blob/main/public/App%20snapshots.png)
 
-> Time taken to develop the project from writing npx create-react-app on Windows powershell to deploying the app on netlify is 10 hours and a few minutes.
+> Time taken to develop the project from writing npx create-react-app on Windows powershell to deploying the app on netlify and excluding the documentation part is 10 hours and a few minutes.
 
 > [Click here](https://www.linkedin.com/in/13asr/) to contact the developer
 
